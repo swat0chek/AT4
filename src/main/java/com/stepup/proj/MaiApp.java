@@ -9,12 +9,10 @@ public class MaiApp {
 
 
     public static void doTwo(String[] args) {
-        System.out.println(3);
-        int a,b,c;
-        a = 3;
-        b = 4;
-        c = a + b;
-        System.out.println(c);
+    int FirstPlace, TwoPlace, ThreePlace;
+    FirstPlace = 3;
+    TwoPlace = 4;
+    ThreePlace = FirstPlace + TwoPlace;
 
     }
 }
