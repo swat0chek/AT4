@@ -4,17 +4,16 @@ public class MaiApp {
     public static void main(String[] args) {
         System.out.println("Привет Мир, а нет, пока");
         System.out.println(112233);
+        doTwo();
         System.out.println(112233);
     }
 
 
-    public static void doTwo(String[] args) {
-        System.out.println(3);
-        int a,b,c;
-        a = 3;
-        b = 4;
-        c = a + b;
-        System.out.println(c);
+    public static void doTwo() {
+    int FirstPlace, TwoPlace, ThreePlace;
+    FirstPlace = 3;
+    TwoPlace = 4;
+    ThreePlace = FirstPlace + TwoPlace - 1;
 
     }
 }
